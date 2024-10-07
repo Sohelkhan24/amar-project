@@ -2,7 +2,7 @@
 
 body{
     font-family: "Open Sans", sans-serif;
-    margin-bottom:100px;
+    
 }
 /* shared style*/
 .text-primary{
@@ -103,7 +103,7 @@ nav ul{
 
 main{
     width:1140px;
-    margin:100px auto;
+    margin:0px auto;
     
 }
 .about{
@@ -112,6 +112,7 @@ main{
     background-color: #FFF8F3;
     border-radius: 10px;
     margin-bottom:100px;
+    margin-top: 100px;
 }
 .section-title{
     font-size:35px;
@@ -151,6 +152,7 @@ main{
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     margin-top:50px;
     border-radius:5px;
+    margin-bottom:100px;
 }
 .skill-title{
     color:#181818;
@@ -161,4 +163,56 @@ main{
 .skill-description{
     font-size:16px;
     color:#757575;
+}
+/*Resume Section*/
+
+.resume-container{
+    display:flex;
+    gap:70px;
+    margin-top:80px;
+    
+}
+
+.resume-column-title{
+    font-size:30px;
+    font-weight:bold;
+    color:#474747;
+}
+.experince-title{
+    font-size:25px;
+    font-weight:bold;
+    color:#474747;
+}
+.experince-subtitle{
+    font-size:20px;
+    font-weight:600px;
+    color:#757575;
+}
+.experince-description{
+    font-size:16px;
+    color:#757575;
+}
+
+/*footer section*/
+
+.footer-main{
+    background-color:#FFF8F3 ;
+    display:flex;
+    padding:130px 200px;
+    gap:100px;
+    margin-top: 100px;
+}
+.footer-column{
+    width:50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display:block;
+    height:64px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding:0px 200px 0px 30px;
+    margin-bottom:24px;
+    
+    
 }
